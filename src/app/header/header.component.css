@@ -1,0 +1,35 @@
+header{
+    background: white;
+    padding: 0;
+    border-bottom: 1px solid #e72929;
+}
+
+a {
+    color: #af13af
+}
+
+a:hover{
+    background: #e72929;
+    color: blue
+}
+
+.container {
+    margin: 0;
+    display:  flex;
+    justify-content: space-between;
+}
+
+a.logo {
+    align-content: center;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 1em;
+    display: inline-block;
+}
