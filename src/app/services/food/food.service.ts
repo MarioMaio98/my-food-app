@@ -10,7 +10,8 @@ export class FoodService {
   getAll():String[]{
     
     return [
-      "public/food1.jpeg"
+      "food1.jpeg",
+      "food4.jpeg"
     ]
   }
 }
