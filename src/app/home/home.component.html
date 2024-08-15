@@ -1,8 +1,18 @@
 <ul>
     @for (food of foods; track $index){
         <li>
-            <a>
-                <img src="{{food}}" alt="image of food">
+            <a>  
+                <div class="content">
+                <img src="{{food.imageUrl}}" alt="image of food">
+               
+                    <div class="name">
+                        {{food.nome}}
+                    </div>
+                    <span class="favorite">
+                        ❤
+                    </span>
+
+                </div>
             </a>
         </li>
     }

@@ -1,6 +1,7 @@
 import { Component, NgModule, OnInit } from '@angular/core';
 import { FoodService } from '../services/food/food.service';
 import { NgFor } from '@angular/common';
+import { Food } from '../shared/model/food';
 
 @Component({
   selector: 'app-home',
@@ -14,7 +15,7 @@ import { NgFor } from '@angular/common';
 
 export class HomeComponent implements OnInit{
   //first i create an empty array of String
-  foods:String[]= [];
+  foods:Food[]= [];
   constructor(private foodService:FoodService){}
    
   ngOnInit(): void {
