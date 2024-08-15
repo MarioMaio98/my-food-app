@@ -11,7 +11,10 @@ export class FoodService {
     
     return [
       "food1.jpeg",
-      "food4.jpeg"
+      "food4.jpeg",
+      "food2.webp",
+      "food3.jpg",
+      "food5.webp"
     ]
   }
 }
