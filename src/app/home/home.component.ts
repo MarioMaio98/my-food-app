@@ -3,6 +3,10 @@ import { FoodService } from '../services/food/food.service';
 import { NgFor } from '@angular/common';
 import { Food } from '../shared/model/food';
 
+
+
+
+
 @Component({
   selector: 'app-home',
   standalone: true,

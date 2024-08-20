@@ -11,7 +11,19 @@
                     <span class="favorite">
                         ❤
                     </span>
-
+                    <div class="origin">
+                        <span *ngFor="let origins of food.origins">
+                        {{origins}}
+                       </span>
+                    </div>
+                   <div class="cook-time">
+                         <span>
+                            🕒
+                         </span>
+                         
+                            {{food.cookTime}}
+                         
+                   </div>
                 </div>
             </a>
         </li>
